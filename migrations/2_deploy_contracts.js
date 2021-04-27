@@ -3,7 +3,7 @@ const WETH = artifacts.require("WETH.sol");
 
 module.exports = async function (deployer, network, addresses) {
   let weth;
-  const FACTORY_ADDRESS = '0xf43b13e1ad3629b69d1e8987231db473ef9a0fe4';
+  const FACTORY_ADDRESS = '0x648db609d49e9cc626ddba0e588445fd19d2dcc3';
 
   if (network === 'mainnet') {
     weth = '';
